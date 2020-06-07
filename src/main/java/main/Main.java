@@ -13,10 +13,10 @@ public class Main {
     private static Stage window;
 
     public static void main(String[] args) {
-        //Application.launch(Launcher.class, args);
-        Euclidean euclidean = new Euclidean(new BigInteger("7"), new BigInteger("23"));
-        euclidean.calc();
-        euclidean.printTable();
+        Application.launch(Launcher.class, args);
+//        Euclidean euclidean = new Euclidean(new BigInteger("7"), new BigInteger("23"));
+//        euclidean.calc();
+//        euclidean.printTable();
     }
 
     public static FXMLLoader getMainLoader() {
